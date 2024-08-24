@@ -7,7 +7,7 @@ With SniS, users will be able to connect to your app more easily. You can set up
 them to log in or have a USER in your Snowflake account. In fact, Streamlit will host your app for free if you make it open to the public. 
 Connecting your app to Snowflake is less easy in SniS than it was in SiS. In SiS, the connection happened automatically. In Streamlit, we'll need to carry out a number of steps. 
 
-
+--add python libraries to SniS project 
 To add any package to a SniS app, you need two steps:
 
 1) Add the library to the requirements.txt file so that Streamlit knows to install it when starting up the project. 
@@ -16,3 +16,6 @@ Keep these rules in mind also.
 
 Anytime you change the streamlit_app.py file, and commit the changes in GitHub, the app will automatically start using the changes.
 However, anytime you make changes to the requirements.txt file, you will need to reboot the app. 
+
+--to bring in a Python package library called requests.  The requests library allows us to build and sent REST API calls.  Paste the code below into the bottom of your SniS app. 
+
