@@ -1,0 +1,8 @@
+The biggest differences between SiS and SniS are: 
+
+1) How users connect to your app.  
+2) How you connect your app to Snowflake. 
+
+With SniS, users will be able to connect to your app more easily. You can set up your SniS app in a way that doesn't require 
+them to log in or have a USER in your Snowflake account. In fact, Streamlit will host your app for free if you make it open to the public. 
+Connecting your app to Snowflake is less easy in SniS than it was in SiS. In SiS, the connection happened automatically. In Streamlit, we'll need to carry out a number of steps. 
